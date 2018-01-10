@@ -1,54 +1,50 @@
+.pusherT {
+  height: 35vh;
+}
+
+.title {
+  top: 0;
+  background-image: image-url("18.gif");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display: block;
+  background-position: center -145px;
+  font-size: 10vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bulk {
+  background: #333333;
+}
+
+.icons {
+  text-align: center;
+  font-size: 3.5vw;
+}
+
+.link {
+  height: 100%;
+}
+
+body h1 {
+  font-size: 10vw;
+}
+
+header {
+  position: absolute;
+  z-index: 8;
+  width: 100%;
+}
+
 * {
   margin:0;
 }
 
-.left {
-  float: left;
-  width: 50%;
-  background: #DADADA;
-  height: 100vh;
-  color: #2E2F30;;
-}
-.right {
-  float: right;
-  width: 50%;
-  background: #2E2F30;
-  height: 100vh;
-  color: #DADADA;
-}
-.group:after {
-  content:"";
-  display: table;
-  clear: both;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-@media screen and (max-width: 480px) {
-  .left,
-  .right {
-    float: none;
-    width: auto;
-    height: 50vh;
-  }
-}
-
-.inner-left {
-  padding: 30px;
-  text-align: right;
-}
-
-.inner-right {
-  padding: 30px;
-  text-align: left;
-}
-
-h1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.4px;
+html, body {
+  font-family: "Helvetica Neue",  Arial, sans-serif;
+  font-size: 15px;
+  color: #3a405e;
+  background: linear-gradient(to top, #687794, #7096b8, #7fb3d4, #a1cae6);
+  background-attachment: fixed;
 }
